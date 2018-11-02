@@ -35,10 +35,6 @@ y = float(input("Enter the y-coordinate of the first mass: "))
 
 mass1 = Mass(m, x, y)
 
-del m
-del x
-del y
-
 print("------------------------------------------")
 
 m = float(input("Enter the mass of the second mass (kg): "))
@@ -46,10 +42,6 @@ x = float(input("Enter the x-coordinate of the second mass: "))
 y = float(input("Enter the y-coordinate of the second mass: "))
 
 mass2 = Mass(m, x, y)
-
-del m
-del x
-del y
 
 print("------------------------------------------")
 
